@@ -59,6 +59,7 @@ import java.util.concurrent.locks.Condition;
 public class CopyOfMain {
 	 public static int MoreThanHalfNum_Solution(int [] array) {
 		 Queue que;
+		 int b=0;
 		 
 	        int m=0;int count=0;
 	        for(int i=0;i<array.length;i++){
